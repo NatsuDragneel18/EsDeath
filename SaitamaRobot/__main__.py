@@ -52,28 +52,33 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*General in command! {}, myself {}!* 
-*An Anime themed group management bot from* [Akame ga Kill](https://anilist.co/anime/20613)!!
+𝐇𝐞𝐥𝐥𝐨
+𝐈 𝐀𝐦 𝐍𝐚𝐭𝐬𝐮 𝐃𝐫𝐚𝐠𝐧𝐞𝐞𝐥 𝐀 𝐅𝐢𝐫𝐞 𝐃𝐫𝐚𝐠𝐨𝐧 𝐒𝐥𝐚𝐲𝐞𝐫 𝐅𝐫𝐨𝐦 𝐅𝐚𝐢𝐫𝐲 𝐓𝐚𝐢𝐥.
+𝐈 𝐀𝐦 𝐀𝐧 𝐀𝐧𝐢𝐦𝐞 𝐓𝐡𝐞𝐦𝐞𝐝 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭.
+𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐌𝐨𝐝𝐮𝐥𝐞 𝐎𝐫 𝐓𝐲𝐩𝐞 /help...
 
-• *Uptime:* `{}`
+
+• 𝐔𝐩𝐭𝐢𝐦𝐞: `{}`
 """
 
 HELP_STRINGS = """
-*{} comes with:*
-*AI Chatbot*, *Anime*, *Music*, *Notes*, *Filters*, *NSFW* *and more!*
+𝐇𝐞𝐲,
+𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐇𝐚𝐬 𝐌𝐚𝐧𝐲 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐂𝐡𝐨𝐨𝐬𝐞 𝐀𝐧𝐲 𝐌𝐨𝐝𝐮𝐥𝐞 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞.
+𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐀𝐫𝐞 𝐄𝐢𝐭𝐡𝐞𝐫 𝐔𝐬𝐞𝐝 𝐁𝐲 `/` 𝐎𝐫 `!`.
+𝐑𝐞𝐚𝐜𝐡 𝐎𝐮𝐭 𝐅𝐨𝐫 𝐎𝐮𝐫 𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩. @TheChamberOfAnimeFans
 
-🎛 *All commands can either be used with* `/` *or* `!`.
-🎛 *Reach out for support:* @EsDeathSupport 
 """.format(
+
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KURISU_IMG = "https://telegra.ph/file/9a75aa001586ef41ff5b9.png"
-KURISUIMGSTART = "https://telegra.ph/file/41fe8e7f0aee49cbb1261.gif"
+KURISU_IMG = "https://telegra.ph/file/35ceabd40a421297951e9.jpg"
+KURISUIMGSTART = "https://telegra.ph/file/80660c3c141a31824bb14.mp4"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """𝐇𝐞𝐲𝐚, 𝐆𝐥𝐚𝐝 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐃𝐨𝐧𝐚𝐭𝐞!
+𝐁𝐮𝐭 𝐍𝐨 𝐍𝐞𝐞𝐝 𝐓𝐨 𝐃𝐨𝐧𝐚𝐭𝐞 𝐁𝐜𝐨𝐳 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 𝐈𝐬 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐕𝐞𝐫𝐲 𝐑𝐢𝐜𝐡.
+𝐉𝐮𝐬𝐭 𝐉𝐨𝐢𝐧 𝐎𝐮𝐫 𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 @TheChamberOfAnimeFans
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -194,33 +199,33 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="💞 Add EsDeath To Your Group",
+                            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="⚙️ Support",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩",
+                             url=f"https://t.me/thechamberofanimefans"),
                          InlineKeyboardButton(
-                             text="🎉 Updates",
-                             url="https://t.me/EsDeathupdates"),
+                             text="𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                             url="https://t.me/animechamberuploads"),
                          InlineKeyboardButton(
-                             text="🗃 Guide",
-                             url="https://t.me/EsDeathupdates/6"),
+                             text="𝐌𝐚𝐧𝐠𝐚 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                             url="https://t.me/mangachamber"),
               
                     ],
                      [
                         InlineKeyboardButton(
-                             text="📍 Anime Chat",
-                             url="https://t.me/Kagesama_chat"),                    
+                             text="𝐌𝐲 𝐎𝐰𝐧𝐞𝐫",
+                             url="https://t.me/NatsuDragneel_FT"),                    
                         InlineKeyboardButton(
-                             text="❓ Help & Commands ❓",
-                             url="https://t.me/Generalesdeath_bot?start=help"),      
+                             text="𝐇𝐞𝐥𝐩",
+                             url="https://t.me/NatsuDragneel_0bot?start=help"),      
                     ]]))
     else:
         update.effective_message.reply_video(
-                KURISUIMGSTART, caption="Esdeath is alive!\n<b>Haven't slept since:</b> <code>{}</code>".format(uptime), parse_mode=ParseMode.HTML)
+                KURISUIMGSTART, caption="𝐈 𝐀𝐦 𝐌𝐨𝐫𝐞 𝐅𝐢𝐫𝐞𝐝 𝐔𝐩 𝐍𝐨𝐰!\n<b>𝐇𝐚𝐯𝐞𝐧'𝐭 𝐒𝐥𝐞𝐩𝐭 𝐒𝐢𝐧𝐜𝐞:</b> <code>{}</code>".format(uptime), parse_mode=ParseMode.HTML)
         
 
 
@@ -471,7 +476,7 @@ def get_settings(update: Update, context: CallbackContext):
                 text,
                 reply_markup=InlineKeyboardMarkup([[
                     InlineKeyboardButton(
-                        text="Settings",
+                        text="𝐒𝐞𝐭𝐭𝐢𝐧𝐠𝐬",
                         url="t.me/{}?start=stngs_{}".format(
                             context.bot.username, chat.id))
                 ]]))
@@ -537,7 +542,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[I am now online!](https://telegra.ph/file/41fe8e7f0aee49cbb1261.gif)", parse_mode=ParseMode.MARKDOWN)
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[𝐈 𝐀𝐦 𝐅𝐢𝐫𝐞𝐝 𝐔𝐩 𝐍𝐨𝐰!](https://telegra.ph/file/80660c3c141a31824bb14.mp4)", parse_mode=ParseMode.MARKDOWN)
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!")
