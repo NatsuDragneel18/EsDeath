@@ -52,20 +52,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝐇𝐞𝐥𝐥𝐨
-𝐈 𝐀𝐦 𝐍𝐚𝐭𝐬𝐮 𝐃𝐫𝐚𝐠𝐧𝐞𝐞𝐥 𝐀 𝐅𝐢𝐫𝐞 𝐃𝐫𝐚𝐠𝐨𝐧 𝐒𝐥𝐚𝐲𝐞𝐫 𝐅𝐫𝐨𝐦 𝐅𝐚𝐢𝐫𝐲 𝐓𝐚𝐢𝐥.
-𝐈 𝐀𝐦 𝐀𝐧 𝐀𝐧𝐢𝐦𝐞 𝐓𝐡𝐞𝐦𝐞𝐝 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭.
-𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐌𝐨𝐝𝐮𝐥𝐞 𝐎𝐫 𝐓𝐲𝐩𝐞 /help...
+✥𝐇𝐞𝐥𝐥𝐨,
 
+✥𝐈 𝐀𝐦 𝐍𝐚𝐭𝐬𝐮 𝐃𝐫𝐚𝐠𝐧𝐞𝐞𝐥 𝐀 𝐅𝐢𝐫𝐞 𝐃𝐫𝐚𝐠𝐨𝐧 𝐒𝐥𝐚𝐲𝐞𝐫 𝐅𝐫𝐨𝐦 𝐅𝐚𝐢𝐫𝐲 𝐓𝐚𝐢𝐥.✥
 
-• 𝐔𝐩𝐭𝐢𝐦𝐞: `{}`
+✥𝐈 𝐀𝐦 𝐀𝐧 𝐀𝐧𝐢𝐦𝐞 𝐓𝐡𝐞𝐦𝐞𝐝 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭.✥
+
+✥𝐓𝐨 𝐂𝐡𝐞𝐜𝐤 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐌𝐨𝐝𝐮𝐥𝐞 𝐎𝐫 𝐓𝐲𝐩𝐞 /help...✥
+
 """
 
 HELP_STRINGS = """
-𝐇𝐞𝐲,
-𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐇𝐚𝐬 𝐌𝐚𝐧𝐲 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐂𝐡𝐨𝐨𝐬𝐞 𝐀𝐧𝐲 𝐌𝐨𝐝𝐮𝐥𝐞 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞.
-𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐀𝐫𝐞 𝐄𝐢𝐭𝐡𝐞𝐫 𝐔𝐬𝐞𝐝 𝐁𝐲 `/` 𝐎𝐫 `!`.
-𝐑𝐞𝐚𝐜𝐡 𝐎𝐮𝐭 𝐅𝐨𝐫 𝐎𝐮𝐫 𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩. @TheChamberOfAnimeFans
+✥𝐇𝐞𝐲,
+
+✥𝐓𝐡𝐢𝐬 𝐁𝐨𝐭 𝐇𝐚𝐬 𝐌𝐚𝐧𝐲 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 𝐂𝐡𝐨𝐨𝐬𝐞 𝐀𝐧𝐲 𝐌𝐨𝐝𝐮𝐥𝐞 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 𝐌𝐞.✥
+
+✥𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐀𝐫𝐞 𝐄𝐢𝐭𝐡𝐞𝐫 𝐔𝐬𝐞𝐝 𝐁𝐲 `/` 𝐎𝐫 `!`.✥
+
+✥𝐑𝐞𝐚𝐜𝐡 𝐎𝐮𝐭 𝐅𝐨𝐫 𝐎𝐮𝐫 𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩. @TheChamberOfAnimeFans ✥
 
 """.format(
 
@@ -199,28 +203,28 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩",
+                            text="✥𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩✥",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩",
+                             text="✥𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩✥",
                              url=f"https://t.me/thechamberofanimefans"),
                          InlineKeyboardButton(
-                             text="𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                             text="✥𝐀𝐧𝐢𝐦𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥✥",
                              url="https://t.me/animechamberuploads"),
                          InlineKeyboardButton(
-                             text="𝐌𝐚𝐧𝐠𝐚 𝐂𝐡𝐚𝐧𝐧𝐞𝐥",
+                             text="✥𝐌𝐚𝐧𝐠𝐚 𝐂𝐡𝐚𝐧𝐧𝐞𝐥✥",
                              url="https://t.me/mangachamber"),
               
                     ],
                      [
                         InlineKeyboardButton(
-                             text="𝐌𝐲 𝐎𝐰𝐧𝐞𝐫",
+                             text="✥𝐌𝐲 𝐎𝐰𝐧𝐞𝐫✥",
                              url="https://t.me/NatsuDragneel_FT"),                    
                         InlineKeyboardButton(
-                             text="𝐇𝐞𝐥𝐩",
+                             text="✥𝐇𝐞𝐥𝐩✥",
                              url="https://t.me/NatsuDragneel_0bot?start=help"),      
                     ]]))
     else:
@@ -500,8 +504,8 @@ def donate(update: Update, context: CallbackContext):
 
         if OWNER_ID != 254318997 and DONATION_LINK:
             update.effective_message.reply_text(
-                "You can also donate to the person currently running me "
-                "[here]({})".format(DONATION_LINK),
+                "Hey I Am Glad You Are Donating"
+                "[But Our Owner Is Already Very Rich No Need To Donate, Just Join Our Anime Chat Group]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN)
 
     else:
@@ -586,7 +590,7 @@ def main():
             updater.bot.set_webhook(url=URL + TOKEN)
 
     else:
-        LOGGER.info("EsDeath is deployed sucessfully...")
+        LOGGER.info("Natsu  is deployed sucessfully...")
         updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
