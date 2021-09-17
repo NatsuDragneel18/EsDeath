@@ -590,7 +590,7 @@ Group admins/group owners do not need these commands.
  ╠ `/sh`*:* Self explanator
  ╚ `/py`*:* Self explanatory
 
-Visit @{SUPPORT_CHAT} for more information.
+Massage [Owner](https://t.me/NatsuDragneel_FT) For More Information.
 """
 
 SUDO_HANDLER = CommandHandler(("addimperial"), addimperial)
